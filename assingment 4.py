@@ -12,6 +12,15 @@ pygame.display.set_caption("Very Gut Pie Gaming Project")
 SKY_BLUE = (135, 206, 235)
 BLUE = (0, 0, 255)
 RED = (255, 0, 0)
+# Create the maze walls
+walls = [
+    pygame.Rect(100, 0, 20, 300),
+    pygame.Rect(200, 100, 20, 300),
+    pygame.Rect(300, 0, 20, 250),
+    pygame.Rect(400, 100, 20, 300),
+    pygame.Rect(500, 0, 20, 250)
+]
+
 
 # Store the player's and enemy's starting position
 player_x = 375
